@@ -14,11 +14,11 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hu:m:", ["url=", "mode="])
     except getopt.GetoptError:
-        print ('python WebCrawling.py -u https://www.google.com -m all')
+        print ('python WebCrawling.py -u https://www.google.com -m <all|title|text>')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print ('python WebCrawling.py -u https://www.google.com -m all')
+            print ('python WebCrawling.py -u https://www.google.com -m <all|title|text>')
             sys.exit(2)
         elif opt in ("-u", "--url"):
             url = arg
