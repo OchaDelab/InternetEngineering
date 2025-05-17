@@ -1,4 +1,4 @@
-Prepare the environment
+*Prepare the environment
 1. Clone the repository
 
 git clone https://github.com/OchaDelab/InternetEngineering.git
@@ -14,3 +14,8 @@ source python_env/bin/activate
 7. Inside the virtual environment, install the required packages
 
  (python_env) pip install -r requirements.txt
+
+*Run the scripts
+1. Web Crawling
+    
+(python_env) python WebCrawling.py -h
